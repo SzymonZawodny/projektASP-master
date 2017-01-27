@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mzelek" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\szymik\\Downloads\\projektASP-master\\Teatr\\Teatr\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\szymik\\Downloads\\projektASP-master\\Teatr\\Teatr\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Teatr-20160115114301.mdf;Initial Catalog=aspnet-Teatr-20160115114301;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\szymik\\Downloads\\projektASP-master\\Teatr\\Teatr\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Teatr.Models.MyDBContext-Web.config Connection String" description="" value="Teatr.Models.MyDBContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\szymik\\Downloads\\projektASP-master\\Teatr\\Teatr\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Teatr.Models.MyDBContext']/@connectionString" />
+  </parameter>
+</parameters>

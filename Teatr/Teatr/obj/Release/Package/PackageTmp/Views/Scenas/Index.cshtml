@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Teatr.Models.Scena>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    Layout = "../Shared/ScenaLayout.cshtml";
+}
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.wielkosc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.numer)
+        </th>
+        <th></th>
+    </tr>
+
+    @Html.Partial("PartialView")
+
+
+</table>
